@@ -19,7 +19,7 @@ class AdminController extends \Ip\GridController
 
 
         return array(
-            'title' => __('Person list (gridExample table)', 'ipAdmin', FALSE),
+            'title' => __('Person list (gridExample table)', 'GridExample', FALSE),
             'table' => 'gridExample',
 
             // you can comment sortField and createPosition out
