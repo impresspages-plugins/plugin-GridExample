@@ -4,7 +4,7 @@
  *
  *
  */
-namespace Plugin\GridTest;
+namespace Plugin\GridExample;
 
 
 
