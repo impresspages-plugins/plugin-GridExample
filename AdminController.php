@@ -19,7 +19,7 @@ class AdminController extends \Ip\GridController
 
 
         return array(
-            'title' => __('Person list (gridExample table)', 'GridExample', FALSE),
+            'title' => 'Person list (gridExample table)',
             'table' => 'gridExample',
 
             // you can comment sortField and createPosition out
@@ -29,27 +29,27 @@ class AdminController extends \Ip\GridController
 //            'pageSize' => 3,
             'fields' => array(
                 array(
-                    'label' => __('Name', 'GridExample', FALSE),
+                    'label' => 'Name',
                     'field' => 'name',
                 ),
                 array(
                     'type' => 'Select',
-                    'label' => __('Age', 'GridExample', FALSE),
+                    'label' => 'Age',
                     'field' => 'age',
                     'values' => array(
-                        array('young', __('Young', 'GridExample', FALSE)),
-                        array('old', __('Old', 'GridExample', FALSE))
+                        array('young', 'Young'),
+                        array('old', 'Old'),
                     )
                 ),
                 array(
                     'type' => 'Checkbox',
-                    'label' => __('In love', 'GridExample', FALSE),
+                    'label' => 'In love',
                     'showInList' => true,
                     'field' => 'inLove'
                 ),
                 array(
                     'type' => 'RepositoryFile',
-                    'label' => __('CV', 'GridExample', FALSE),
+                    'label' => 'CV',
                     'showInList' => true,
                     'field' => 'cv'
                 )
